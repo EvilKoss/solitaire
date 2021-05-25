@@ -1,0 +1,81 @@
+.top {
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  grid-template-columns: 200px 500px 1fr 200px 200px 200px 200px;
+
+  width: 1903px;
+  height: 300px;
+  padding-top: 10px;
+  background-color: green;
+}
+
+.topchik {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: 1fr;
+
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  width: 1903px;
+  height: 940px;
+  padding-top: 10px;
+  background-color: green;
+}
+
+.body2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+}
+
+.cards1 {
+  border: solid;
+  display: relative;
+  max-width: 120px;
+  height: 180px;
+  margin-left: 15px;
+  margin-top: 0px;
+  border-radius: 20px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.cards2 {
+  display: relative;
+  border: solid;
+  max-width: 120px;
+  height: 180px;
+  margin-left: 15px;
+  margin-top: 0px;
+  border-radius: 20px;
+  background-color: green;
+  text-align: center;
+}
+
+.cards3 {
+  border: solid;
+  display: relative;
+  max-width: 120px;
+  height: 180px;
+  margin-left: 15px;
+  margin-top: 0px;
+  border-radius: 20px;
+  background-color: Blue;
+  text-align: center;
+}
+
+.cards4 {
+  border: solid;
+  display: relative;
+  max-width: 120px;
+  height: 180px;
+  margin-left: 15px;
+  margin-top: 0px;
+  border-radius: 20px;
+  background-color: orange;
+  text-align: center;
+}
